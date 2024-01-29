@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap"),
+    url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap"),
+    "./variable";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-family: $josefin_sans_fontfamily, sans-serif;
+}
+ul,
+ol,
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: $black;
+}
+img,
+video,
+svg,
+button,
+a {
+    display: block;
+}
+img {
+    vertical-align: middle;
+    max-width: 100%;
+}
+button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+h1 {
+    line-height: 1.1;
+}
+
+@each $heading in $headings {
+    #{$heading} {
+        @extend h1;
+    }
+}

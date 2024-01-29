@@ -1,0 +1,4 @@
+@mixin gridTemplate($repeat:auto-fit,$minwidth:0,$maxwidth:1fr){
+    grid-template-columns: repeat(#{$repeat},minmax(#{$minwidth},#{$maxwidth}));
+    grid-auto-flow: row;
+}

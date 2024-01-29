@@ -1,0 +1,5 @@
+@mixin mediaQueryMinAndMaxWidth($minwidth: 320px, $maxwidth: 725px) {
+    @media only screen and (min-width:#{$minwidth}) and (max-width:#{$maxwidth}) {
+        @content;
+    }
+}

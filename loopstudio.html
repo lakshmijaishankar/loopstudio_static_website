@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="./assets//images/favicon-32x32.png"
+      type="image/png"
+      sizes="32px 32px"
+    />
+    <title>Loopstudios landing page</title>
+    <link rel="stylesheet" href="./build/stylesheet/loopstudio.css" />
+    <script src="./scripts/loopstudio.js" defer></script>
+  </head>
+  <body>
+    <section class="loopstudio loopstudio-container">
+      <header class="loopstudio_navbar_header">
+        <nav class="loopstudio_navbar_container">
+          <div class="loopstudio_heading">
+            <img src="./assets/svg/logo.svg" alt="logo-svg" />
+          </div>
+          <ul class="loopstudio_nav_links">
+            <li class="loopstudio_about">
+              <a href="#">about</a>
+            </li>
+            <li class="loopstudio_careers">
+              <a href="#">careers</a>
+            </li>
+            <li class="loopstudio_events">
+              <a href="#">events</a>
+            </li>
+            <li class="loopstudio_products">
+              <a href="#">products</a>
+            </li>
+            <li class="loopstudio_support">
+              <a href="#">support</a>
+            </li>
+          </ul>
+          <div class="loopstudio_hamburger">
+            <img
+              src="./assets/svg/icon-hamburger.svg"
+              alt="hamburger-svg"
+              class="loopstudio_menu"
+            />
+          </div>
+        </nav>
+        <div class="loopstudio_immersive_deliver">
+          <p>IMMERSIVE EXPERIENCES THAT DELIVER</p>
+        </div>
+      </header>
+      <main class="loopstudio_main_container">
+        <section class="loopstudio_interactive">
+          <figure class="loopstudio_interactive_img_container">
+            <img
+              src="./assets//images/desktop/image-interactive.jpg"
+              alt="interactiveimg"
+              class="loopstudio_interactive_img"
+            />
+          </figure>
+          <article class="loopstudio_interactive_desc">
+            <h2 class="loopstudio_interactive_heading">
+              THE LEADER IN INTERACTIVE VR
+            </h2>
+            <p>
+              Founded in 2011, Loopsfudios has been producing world-class
+              virtual reality projects for some of the best companies around the
+              globe. Our award-winning creations have transformed businesses
+              through digital experiences that bind to their brand.
+            </p>
+          </article>
+        </section>
+        <section class="loopstudio_creations">
+          <div class="loopstudio_our_creation">
+            <h2>OUR CREATIONS</h2>
+            <button type="button">SEE ALL</button>
+          </div>
+          <ul class="loopstudio_creation_gallery_conatiner"></ul>
+        </section>
+        <!-- <picture>
+          <source
+            srcset="./assets/images/desktop/image-deep-earth.jpg 1x"
+            media="(min-width:768px)"
+            type="image/jpg"
+          />
+          <source
+            media="(min-width:375px) and (max-width:768px)"
+            srcset="./assets/images/mobile/image-deep-earth.jpg 1x"
+            type="image/jpg"
+          />
+          <img src="./assets/images/desktop/image-curiosity.jpg" alt="" />
+        </picture> -->
+      </main>
+      <footer>
+        <div class="footer_nav_links_container">
+          <figure class="footer_logo">
+            <img src="./assets/svg/logo.svg" alt="logo.svg" />
+          </figure>
+          <ul class="footer_nav_links">
+            <li>About</li>
+            <li>Careers</li>
+            <li>Events</li>
+            <li>Products</li>
+          </ul>
+        </div>
+        <div class="footer_icons">
+          <ul class="footer_links_icons">
+            <li>
+              <img src="./assets/svg/icon-facebook.svg" alt="facebook svg" />
+            </li>
+            <li>
+              <img src="./assets/svg/icon-twitter.svg" alt="twitter svg" />
+            </li>
+            <li>
+              <img src="./assets/svg/icon-pinterest.svg" alt="pinterest svg" />
+            </li>
+            <li>
+              <img src="./assets/svg/icon-instagram.svg" alt="instagram svg" />
+            </li>
+          </ul>
+          <h4>&copy;2021 Loopstudios. All rights reserved.</h4>
+        </div>
+      </footer>
+    </section>
+  </body>
+</html>
+<!-- sizes attritube can be used when there is w descriptors in scrcset -->
+<!-- $animation_delay: 1s;
+            @for $i from 1 through 8 {
+                @if ($i%2==0) {
+                    &.modile_gallery_item_#{$i} {
+                        opacity: 0;
+                        animation: animate_gallery 3s ease-in-out 0ms 1 forwards;
+                        animation-delay: $animation_delay + ($i - 1) * 0.5s;
+                        @include animateInRight(animate_gallery);
+                    }
+                }else{
+                    &.modile_gallery_item_#{$i} {
+                        opacity: 0;
+                        animation: animate_gallery 3s ease-in-out 0ms 1 forwards;
+                        animation-delay: $animation_delay + ($i - 1) * 0.5s;
+                        @include animateInLeft(animate_gallery);
+                    }
+                }
+            }  -->
